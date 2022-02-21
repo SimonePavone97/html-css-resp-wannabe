@@ -4,11 +4,24 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 420px) {
+  body{
+    background-color: #F2F2CD;
+  }
+}
+
+
 .row {
   width: 992px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
+}
+
+@media screen and (max-width: 420px) {
+  .row{
+    margin-top: 0px;
+  }
 }
 
 /* BLOCCO LEZIONI */
@@ -44,16 +57,23 @@
   width: 33%;
 }
 
+
+#steps {
+  text-align: center;
+}
+
+@media screen and (max-width: 420px) {
+  #steps h1 {
+  background-color: white;
+  }
+}
+
 @media screen and (max-width: 420px) {
   #steps .row > .left, #steps .row > .central, #steps .row > .right {
   float: left;
   width: 100%;
+  background-color: white;
   }
-}
-
-
-#steps {
-  text-align: center;
 }
 
 /* BLOCCO PERCHE */
@@ -74,6 +94,19 @@
   padding: 30px
 }
 
+@media screen and (max-width: 420px) {
+  #why h1 {
+  background-color: #F2F2CD;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #why .row > .first, #why .row > .second, #why .row > .third {
+  background-color: #F2F2CD;
+  margin-top: 0;
+  }
+}
+
 /* COMMON */
 .row::after {
   content: '';
@@ -85,8 +118,22 @@
   background-color: #f9f9f9;
 }
 
+@media screen and (max-width: 420px) {
+  .container.grey {
+  margin-top: 10px;
+  }
+}
+
+
 img {
   height: 200px;
+}
+
+@media screen and (max-width: 420px) {
+  img {
+  margin-top: 30px;
+
+  }
 }
 
 .clear {
