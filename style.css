@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
   body{
     background-color: #F2F2CD;
   }
@@ -18,8 +18,9 @@
   margin-top: 100px;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
   .row{
+    width: 100%;
     margin-top: 0px;
   }
 }
@@ -31,7 +32,7 @@
   float: left;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
   #lezioni .row > .left, #lezioni .row > .right {
   width: 100%;
   float: left;
@@ -62,13 +63,13 @@
   text-align: center;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
   #steps h1 {
   background-color: white;
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
   #steps .row > .left, #steps .row > .central, #steps .row > .right {
   float: left;
   width: 100%;
@@ -94,13 +95,13 @@
   padding: 30px
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
   #why h1 {
   background-color: #F2F2CD;
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
   #why .row > .first, #why .row > .second, #why .row > .third {
   background-color: #F2F2CD;
   margin-top: 0;
@@ -118,7 +119,7 @@
   background-color: #f9f9f9;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
   .container.grey {
   margin-top: 10px;
   }
@@ -129,10 +130,10 @@ img {
   height: 200px;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
   img {
-  margin-top: 30px;
-
+    height: 140px;
+    margin-top: 30px;
   }
 }
 
